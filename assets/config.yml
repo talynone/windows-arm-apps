@@ -651,6 +651,13 @@ services:
         url: "https://github.com/iKineticate/Windows-ARM64-Binaries/releases/tag/ruffle"
         target: "_blank" # optional html a tag target attribute
  
+      - name: "Voicemod"
+        logo: "assets/tools/voicemod.png"
+        subtitle: "Boost the way you sound with your squad wherever you hang out, using the leading real-time AI voice changer & soundboard."
+        tag: "ARM64EC"
+        url: "https://www.voicemod.net/"
+        target: "_blank"
+        
       - name: "FxSound"
         logo: "assets/tools/fxsound.png"
         subtitle: "Free open-source software to boost sound quality, volume, and bass."
