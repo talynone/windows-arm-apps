@@ -527,7 +527,7 @@ services:
         logo: "assets/tools/mpv.png"
         subtitle: "Media player, use 'mpv.exe --hwdec', open-source, command-line media player based on MPlayer, known for playing nearly any format with powerful features like advanced video output (HDR, scaling) and extensive customization via scripts and configuration, making it a versatile and high-performance choice for video enthusiasts."
         url: "https://github.com/mpv-player/mpv/releases"
-        target: "_blank" # optional html a tag target Media player Ottributeoffering up-to-date dependencies and features.
+        target: "_blank" # optional html a tag target attribute
 
       - name: "mpv (shinchiro build)"
         logo: "assets/tools/mpv.png"
