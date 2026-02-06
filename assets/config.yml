@@ -2145,6 +2145,12 @@ services:
         url: "https://apps.microsoft.com/store/detail/microsoft-powertoys/XP89DCGQ3K6VLD"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Raycast"
+        logo: "assets/tools/raycast.png"
+        subtitle: "Blazingly fast launcher that replaces the clutter of menus, buried apps, and slow search with a single command bar."
+        url: "https://apps.microsoft.com/detail/9pfxxshc64h3"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "Rufus"
         logo: "assets/tools/rufus.png"
         subtitle: "Free, create bootable USB drives the easy way"
@@ -6826,7 +6832,7 @@ services:
         url: "https://apps.microsoft.com/detail/9nmbr75x8994"
         target: "_blank" # optional html a tag target attribute   
         
-      - name: "Zebra Printer Printer Driver"
+      - name: "Zebra Printer Driver"
         logo: "assets/tools/zebraprinters.png"
         subtitle: "Version 10 adds Windows ARM support. Check release notes for supported printers."
         url: "https://www.zebra.com/us/en/support-downloads/printers/printer-drivers.html?nocache="
