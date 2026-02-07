@@ -2992,7 +2992,13 @@ services:
         subtitle: "Open-source download management tool that streamlines downloading, batch processing, and file extraction from various hosting websites."
         url: "https://jdownloader.org/jdownloader2"
         target: "_blank" # optional html a tag target attribute
-
+        
+      - name: "AB Download Manager"
+        logo: "assets/tools/abdownloadmanager.png"
+        subtitle: "Download Manager that speeds up your downloads."
+        url: "https://github.com/amir1376/ab-download-manager/releases"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "SABnzbd"
         logo: "assets/tools/sabnzbd.png"
         subtitle: "Free and easy NZB (newsgroup binary) downloader"
