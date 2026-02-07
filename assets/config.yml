@@ -1555,6 +1555,13 @@ services:
         url: "https://zoo.dev/design-studio/download"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "LibreCAD"
+        logo: "assets/tools/librecad.png"
+        subtitle: "2D CAD program that can read DXF/DWG files and can write DXF/PDF/SVG files. It supports point/line/circle/ellipse/parabola/spline primitives."
+        tag: "Nightly"        
+        url: "https://github.com/LibreCAD/LibreCAD/actions/workflows/build-all.yml"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "GameMaker"
         logo: "assets/tools/gamemaker.png"
         tag: "IDE runs in x64 mode, but game output is ARM64EC"
