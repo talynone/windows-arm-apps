@@ -1672,6 +1672,13 @@ services:
         url: "https://dev-builds.libreoffice.org/pre-releases/win/aarch64/?C=M&O=D"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "WPS Office (Asian)"
+        logo: "assets/tools/wpsoffice.png"
+        subtitle: "Asian language version, PDF, Docs, Spreadsheet, Slide View & Edit."
+        tag: "beta"
+        url: "https://pc-package.wpscdn.cn/wps/download/wps_arm64_beta20.3102.exe"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "PDF X-Change Editor (Free, Plus and Pro)"
         logo: "assets/tools/pdfxchange.png"
         subtitle: "Feature-rich PDF viewer/editor"
