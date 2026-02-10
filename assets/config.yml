@@ -1555,6 +1555,13 @@ services:
         url: "https://zoo.dev/design-studio/download"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "LibreCAD"
+        logo: "assets/tools/librecad.png"
+        subtitle: "2D CAD program that can read DXF/DWG files and can write DXF/PDF/SVG files. It supports point/line/circle/ellipse/parabola/spline primitives."
+        tag: "Nightly"        
+        url: "https://github.com/LibreCAD/LibreCAD/actions/workflows/build-all.yml"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "GameMaker"
         logo: "assets/tools/gamemaker.png"
         tag: "IDE runs in x64 mode, but game output is ARM64EC"
@@ -1665,6 +1672,13 @@ services:
         url: "https://dev-builds.libreoffice.org/pre-releases/win/aarch64/?C=M&O=D"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "WPS Office (Asian)"
+        logo: "assets/tools/wpsoffice.png"
+        subtitle: "Asian language version, PDF, Docs, Spreadsheet, Slide View & Edit."
+        tag: "beta"
+        url: "https://pc-package.wpscdn.cn/wps/download/wps_arm64_beta20.3102.exe"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "PDF X-Change Editor (Free, Plus and Pro)"
         logo: "assets/tools/pdfxchange.png"
         subtitle: "Feature-rich PDF viewer/editor"
@@ -2145,6 +2159,12 @@ services:
         url: "https://apps.microsoft.com/store/detail/microsoft-powertoys/XP89DCGQ3K6VLD"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Raycast"
+        logo: "assets/tools/raycast.png"
+        subtitle: "Blazingly fast launcher that replaces the clutter of menus, buried apps, and slow search with a single command bar."
+        url: "https://apps.microsoft.com/detail/9pfxxshc64h3"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "Rufus"
         logo: "assets/tools/rufus.png"
         subtitle: "Free, create bootable USB drives the easy way"
@@ -2972,7 +2992,13 @@ services:
         subtitle: "Open-source download management tool that streamlines downloading, batch processing, and file extraction from various hosting websites."
         url: "https://jdownloader.org/jdownloader2"
         target: "_blank" # optional html a tag target attribute
-
+        
+      - name: "AB Download Manager"
+        logo: "assets/tools/abdownloadmanager.png"
+        subtitle: "Download Manager that speeds up your downloads."
+        url: "https://github.com/amir1376/ab-download-manager/releases"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "SABnzbd"
         logo: "assets/tools/sabnzbd.png"
         subtitle: "Free and easy NZB (newsgroup binary) downloader"
@@ -6826,7 +6852,7 @@ services:
         url: "https://apps.microsoft.com/detail/9nmbr75x8994"
         target: "_blank" # optional html a tag target attribute   
         
-      - name: "Zebra Printer Printer Driver"
+      - name: "Zebra Printer Driver"
         logo: "assets/tools/zebraprinters.png"
         subtitle: "Version 10 adds Windows ARM support. Check release notes for supported printers."
         url: "https://www.zebra.com/us/en/support-downloads/printers/printer-drivers.html?nocache="
