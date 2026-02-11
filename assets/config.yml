@@ -540,6 +540,12 @@ services:
         subtitle: "Nightly Alpha Builds, Open-source media center that organizes and plays your digital content—movies, shows, music, photos"
         url: "https://mirrors.kodi.tv/nightlies/windows/winarm64/master/"
         target: "_blank" # optional html a tag target attribute
+
+      - name: "Stremio"
+        logo: "assets/tools/stremio.png"
+        subtitle: "Free, modern media center application that aggregates movies, TV shows, live TV, and online channels into one interface."
+        url: "https://www.stremio.com/downloads"
+        target: "_blank" # optional html a tag target attribute
         
       - name: "JellyFin Server"
         logo: "assets/tools/jellyfin.png"
