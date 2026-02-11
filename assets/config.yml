@@ -559,6 +559,18 @@ services:
         url: "https://github.com/dragonflylee/switchfin/releases/latest"
         target: "_blank" # optional html a tag target attribute       
 
+      - name: "Fladder"
+        logo: "assets/tools/fladder.png"
+        subtitle: "Unofficial build, third-party native Jellyfin client"
+        url: "https://github.com/talynone/Fladder/actions"
+        target: "_blank" # optional html a tag target attribute  
+        
+      - name: "Plezy"
+        logo: "assets/tools/plezy.png"
+        subtitle: "Modern cross-platform Plex client built with Flutter"
+        url: "https://github.com/edde746/plezy/releases"
+        target: "_blank" # optional html a tag target attribute        
+
       - name: "MediaOnTauri"
         logo: "assets/tools/mediaontauri.png"
         subtitle: "Plex web client, web wrapper written in Tauri"
@@ -603,6 +615,12 @@ services:
         url: "https://sourceforge.net/projects/sacddecoder/files/macOS%20%2BWindows/foo_input_udsd/"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Harmonoid"
+        logo: "assets/tools/harmonoid.png"
+        subtitle: "Plays & manages your music library."
+        url: "https://harmonoid.com/downloads"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "Boom Audio Player"
         logo: "assets/tools/boomaudioplayer.png"
         subtitle: "Simplified, lightweight, 'just play music' audio player for casual users, forked from the powerful but complex foobar2000."
@@ -1752,6 +1770,12 @@ services:
         url: "https://www.cube-soft.com/cubepdf/"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Prince 16"
+        logo: "assets/tools/prince16htmltopdf.png"
+        subtitle: "Professional commercial HTML to PDF converter"        
+        url: "https://www.princexml.com/download/"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "TeXstudio"
         logo: "assets/tools/texstudio.png"
         subtitle: "Unofficial builds, fully featured LaTeX editor"
@@ -3214,7 +3238,7 @@ services:
 
       - name: "Flying Carpet"
         logo: "assets/tools/flyingcarpet.png"
-        subtitle: "unofficial builds"
+        subtitle: "Unofficial build, Send and receive files between Android, iOS, Linux, macOS, and Windows over ad hoc WiFi."
         url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/FlyingCarpet"
         target: "_blank" # optional html a tag target attribute
 
@@ -3677,6 +3701,12 @@ services:
         url: "https://forge.rust-lang.org/infra/other-installation-methods.html#standalone"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Rustup"
+        logo: "assets/tools/rust.png"
+        subtitle: "The preferred way to install/manage multiple versions of Rust."
+        url: "https://rustup.rs/"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "Dart"
         logo: "assets/tools/dart.png"
         subtitle: "Approachable, portable, and productive language for high-quality apps on any platform."
@@ -6828,6 +6858,12 @@ services:
         url: "https://www.toshibatec.com/information/20251008_02.html"
         target: "_blank" # optional html a tag target attribute 
 
+      - name: "Dymo"
+        logo: "assets/tools/dymo.png"
+        subtitle: "Supports the Labelmaker 5 series and later."
+        url: "https://www.dymo.com/online-support.html"
+        target: "_blank" # optional html a tag target attribute 
+        
       - name: "Arkscan"
         logo: "assets/tools/arkscan.png"
         subtitle: "Arkscan 2054A, 2054K, 2054N, and 3044C multi-functional thermal printer drivers download half way down page."
@@ -6840,6 +6876,12 @@ services:
         url: "https://help.flashlabel.com/support/search/solutions?term=windows%20arm"
         target: "_blank" # optional html a tag target attribute 
         
+      - name: "Zebra Printer Driver"
+        logo: "assets/tools/zebraprinters.png"
+        subtitle: "Version 10 adds Windows ARM support. Check release notes for supported printers."
+        url: "https://www.zebra.com/us/en/support-downloads/printers/printer-drivers.html?nocache="
+        target: "_blank" # optional html a tag target attribute  
+        
       - name: "uniFLOW Online Virtual Printer"
         logo: "assets/tools/uniflow.png"
         subtitle: "Print securely from any Windows 11 PC to uniFLOW Online"
@@ -6851,9 +6893,15 @@ services:
         subtitle: "The uniFLOW Printer App extends the built in IPP functionality to provide a better user interface and more printing options than are currently available with the built-in Mopria functionality alone."
         url: "https://apps.microsoft.com/detail/9nmbr75x8994"
         target: "_blank" # optional html a tag target attribute   
-        
-      - name: "Zebra Printer Driver"
-        logo: "assets/tools/zebraprinters.png"
-        subtitle: "Version 10 adds Windows ARM support. Check release notes for supported printers."
-        url: "https://www.zebra.com/us/en/support-downloads/printers/printer-drivers.html?nocache="
-        target: "_blank" # optional html a tag target attribute           
+
+      - name: "Papercut"
+        logo: "assets/tools/papercut.png"
+        subtitle: "Widely used, vendor-agnostic print management software designed to help organizations monitor, control, and secure their printing, copying, and scanning."
+        url: "https://www.papercut.com/kb/Main/windows-arm64-support-across-the-papercut-portfolio/#products-and-features-that-support-arm64"
+        target: "_blank" # optional html a tag target attribute  
+
+      - name: "ezeep Blue"
+        logo: "assets/tools/ezeep.png"
+        subtitle: "ezeep Blue makes printing from any device to any printer a breeze."
+        url: "https://support.ezeep.com/en/support/solutions/articles/43000762230-ezeep-blue-print-app-for-windows-on-arm"
+        target: "_blank" # optional html a tag target attribute  
