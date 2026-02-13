@@ -1931,7 +1931,7 @@ services:
         target: "_blank"
 
       - name: "LiquidText" # App name
-        subtitle: "Review, gather, and organize information across all your documents: th"
+        subtitle: "Review, gather, and organize information across all your documents."
         logo: "assets/tools/liquidtext.png" # App icon
         url: "https://apps.microsoft.com/detail/9n9z9nsv47fl" # URL to download the app
         target: "_blank"
@@ -6648,7 +6648,13 @@ services:
         subtitle: "Developer toolkit for running any AI model locally — across NPUs, GPUs, and CPUs"
         url: "https://github.com/NexaAI/nexa-sdk"
         target: "_blank" # optional html a tag target attribute
-
+        
+      - name: "GitHub Copilot Taskbar GUI"
+        logo: "assets/tools/github_copilot_taskbar_gui.png"
+        subtitle: "System tray access to GitHub Copilot CLI with automatic context awareness. Detects active focus, open applications, file system state, and running services to augment prompts with relevant environment information."
+        url: "https://github.com/sirredbeard/ghcopilot-taskbar-gui/releases"
+        target: "_blank" # optional html a tag target attribute
+        
   - name: "Drivers"
     icon: "fa-solid fa-gears"
     items:
