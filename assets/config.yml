@@ -1684,6 +1684,13 @@ services:
   - name: "Office"
     icon: "fa-solid fa-briefcase"
     items:
+      - name: "Microsoft 365 (Office)"
+        logo: "assets/tools/msoffice365.png"
+        subtitle: "Word, Excel, PowerPoint, and more."
+        tag: "ARM64EC"
+        url: "https://apps.microsoft.com/store/detail/microsoft-365-office/9WZDNCRD29V9"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "LibreOffice"
         logo: "assets/tools/libreoffice.png"
         subtitle: "Open source office suite, compatible with Microsoft Office/365 files (.doc, .docx, .xls, .xlsx, .ppt, .pptx)"
@@ -1799,13 +1806,6 @@ services:
         subtitle: "Print labels, barcodes, receipts and more from a webpage using HTML, JavaScript and Java."
         tag: "Java"
         url: "https://qz.io/download/?arch=aarch64#"
-        target: "_blank" # optional html a tag target attribute
-
-      - name: "Microsoft 365 (Office)"
-        logo: "assets/tools/msoffice365.png"
-        subtitle: "Word, Excel, PowerPoint, and more."
-        tag: "ARM64EC"
-        url: "https://apps.microsoft.com/store/detail/microsoft-365-office/9WZDNCRD29V9"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Microsoft To do"
@@ -2928,6 +2928,12 @@ services:
         logo: "assets/tools/tailscale.png"
         subtitle: "WireGuard based VPN for creating networks without the need for port forwarding."
         url: "https://pkgs.tailscale.com/stable/#windows"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "NetBird"
+        logo: "assets/tools/netbird.png"
+        subtitle: "WireGuard based VPN for overlay network with Zero Trust Network Access, providing a unified open source platform for reliable and    secure connectivity."
+        url: "https://app.netbird.io/install"
         target: "_blank" # optional html a tag target attribute
         
       - name: "EasyTier"
