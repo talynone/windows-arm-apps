@@ -1972,6 +1972,12 @@ services:
         url: "https://zebra.ddscentral.org/pub/downloads/thunderbird-arm64/"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Fantastical"
+        logo: "assets/tools/fantastical.png"
+        subtitle: "Subscription based multiple award-winning calendar app."
+        url: "https://apps.microsoft.com/detail/9p0kn9s5rp86"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "Zotero"
         logo: "assets/tools/zotero.png"
         subtitle: "Free tool to help you collect, organize, annotate, cite, and share research"
