@@ -330,6 +330,13 @@ services:
         url: "https://apps.microsoft.com/detail/9WZDNCRFJ3TJ"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Apple TV"
+        logo: "assets/tools/appletv.png"
+        subtitle: "Home of exclusive Apple Original shows and movies, Formula 1® (for US-based customers), MLS, Friday Night Baseball, thousands of movies to buy or rent."
+        tag: "ARM64EC"
+        url: "https://apps.microsoft.com/detail/9nm4t8b9jqz1"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "Prime Video"
         logo: "assets/tools/primevideo.png"
         subtitle: "Watch movies and TV shows recommended for you, including award-winning Amazon Originals and more."
