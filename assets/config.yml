@@ -588,7 +588,8 @@ services:
       - name: "Plezy"
         logo: "assets/tools/plezy.png"
         subtitle: "Modern cross-platform Plex client built with Flutter"
-        url: "https://github.com/edde746/plezy/releases"
+        tag: "Nightly"
+        url: "https://github.com/edde746/plezy/actions"
         target: "_blank" # optional html a tag target attribute        
 
       - name: "MediaOnTauri"
@@ -1602,8 +1603,8 @@ services:
       - name: "LibreCAD"
         logo: "assets/tools/librecad.png"
         subtitle: "2D CAD program that can read DXF/DWG files and can write DXF/PDF/SVG files. It supports point/line/circle/ellipse/parabola/spline primitives."
-        tag: "Nightly"        
-        url: "https://github.com/LibreCAD/LibreCAD/actions/workflows/build-all.yml"
+        tag: "Alpha"        
+        url: "https://github.com/LibreCAD/LibreCAD/releases/tag/2.2.2_alpha-latest"
         target: "_blank" # optional html a tag target attribute
         
       - name: "GameMaker"
