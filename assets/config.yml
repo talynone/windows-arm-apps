@@ -373,6 +373,13 @@ services:
         url: "https://freetubeapp.io/#download"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "MultiViewer"
+        logo: "assets/tools/multiviewer.png"
+        subtitle: "Motorsport (F1, F2, F3, IndyCar, WEC, Nascar) desktop client"
+        tag: "beta"
+        url: "https://multiviewer.app/download"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "Apple Music"
         logo: "assets/tools/applemusic.png"
         subtitle: "Unlimited access to millions of songs and your entire Apple music library."
