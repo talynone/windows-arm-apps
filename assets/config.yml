@@ -496,6 +496,12 @@ services:
         url: "https://github.com/yt-dlp/yt-dlp/releases"
         target: "_blank"
         
+      - name: "FFmpeg Builds for YT-DLP"
+        logo: "assets/tools/ytdlp.png"
+        subtitle: "FFmpeg Builds for YT-DLP."
+        url: "https://github.com/yt-dlp/FFmpeg-Builds/releases"
+        target: "_blank"
+        
       - name: "Lux"
         logo: "assets/tools/Lux.png"
         subtitle: "video downloader"
@@ -588,8 +594,7 @@ services:
       - name: "Plezy"
         logo: "assets/tools/plezy.png"
         subtitle: "Modern cross-platform Plex client built with Flutter"
-        tag: "Nightly"
-        url: "https://github.com/edde746/plezy/actions"
+        url: "https://github.com/edde746/plezy/releases"
         target: "_blank" # optional html a tag target attribute        
 
       - name: "MediaOnTauri"
@@ -2959,7 +2964,7 @@ services:
 
       - name: "NetBird"
         logo: "assets/tools/netbird.png"
-        subtitle: "WireGuard based VPN for overlay network with Zero Trust Network Access, providing a unified open source platform for reliable and    secure connectivity."
+        subtitle: "WireGuard based VPN for overlay network with Zero Trust Network Access, providing a unified open source platform for reliable and secure connectivity."
         url: "https://app.netbird.io/install"
         target: "_blank" # optional html a tag target attribute
         
@@ -5036,6 +5041,11 @@ services:
         logo: "assets/tools/fluentflyout.png"
         subtitle: "Media Flyouts, Taskbar Widgets and more."
         url: "https://github.com/unchihugo/FluentFlyout/releases"
+
+      - name: "DynamicWin Legacy"
+        logo: "assets/tools/dynamicwin.png"
+        subtitle: "Dynamic Island inspired Windows App that brings in a bunch of features like widgets or a file tray that works like a clipboard. Similar to dynamic notches that you can find on macOS like NotchNook."
+        url: "https://github.com/59xa/DynamicWin-Legacy/releases"
         
       - name: "FlipIt"
         logo: "assets/tools/flipit.png"
