@@ -330,6 +330,13 @@ services:
         url: "https://apps.microsoft.com/detail/9WZDNCRFJ3TJ"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Apple TV"
+        logo: "assets/tools/appletv.png"
+        subtitle: "Home of exclusive Apple Original shows and movies, Formula 1® (for US-based customers), MLS, Friday Night Baseball, thousands of movies to buy or rent."
+        tag: "ARM64EC"
+        url: "https://apps.microsoft.com/detail/9nm4t8b9jqz1"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "Prime Video"
         logo: "assets/tools/primevideo.png"
         subtitle: "Watch movies and TV shows recommended for you, including award-winning Amazon Originals and more."
@@ -366,6 +373,13 @@ services:
         url: "https://freetubeapp.io/#download"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "MultiViewer"
+        logo: "assets/tools/multiviewer.png"
+        subtitle: "Motorsport (F1, F2, F3, IndyCar, WEC, Nascar) desktop client"
+        tag: "beta"
+        url: "https://multiviewer.app/download"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "Apple Music"
         logo: "assets/tools/applemusic.png"
         subtitle: "Unlimited access to millions of songs and your entire Apple music library."
@@ -482,6 +496,12 @@ services:
         url: "https://github.com/yt-dlp/yt-dlp/releases"
         target: "_blank"
         
+      - name: "FFmpeg Builds for YT-DLP"
+        logo: "assets/tools/ytdlp.png"
+        subtitle: "FFmpeg Builds for YT-DLP."
+        url: "https://github.com/yt-dlp/FFmpeg-Builds/releases"
+        target: "_blank"
+        
       - name: "Lux"
         logo: "assets/tools/Lux.png"
         subtitle: "video downloader"
@@ -540,6 +560,12 @@ services:
         subtitle: "Nightly Alpha Builds, Open-source media center that organizes and plays your digital content—movies, shows, music, photos"
         url: "https://mirrors.kodi.tv/nightlies/windows/winarm64/master/"
         target: "_blank" # optional html a tag target attribute
+
+      - name: "Stremio"
+        logo: "assets/tools/stremio.png"
+        subtitle: "Free, modern media center application that aggregates movies, TV shows, live TV, and online channels into one interface."
+        url: "https://www.stremio.com/downloads"
+        target: "_blank" # optional html a tag target attribute
         
       - name: "JellyFin Server"
         logo: "assets/tools/jellyfin.png"
@@ -558,6 +584,18 @@ services:
         subtitle: "Third-party native Jellyfin client"
         url: "https://github.com/dragonflylee/switchfin/releases/latest"
         target: "_blank" # optional html a tag target attribute       
+
+      - name: "Fladder"
+        logo: "assets/tools/fladder.png"
+        subtitle: "Unofficial build, third-party native Jellyfin client"
+        url: "https://github.com/talynone/Fladder/actions"
+        target: "_blank" # optional html a tag target attribute  
+        
+      - name: "Plezy"
+        logo: "assets/tools/plezy.png"
+        subtitle: "Modern cross-platform Plex client built with Flutter"
+        url: "https://github.com/edde746/plezy/releases"
+        target: "_blank" # optional html a tag target attribute        
 
       - name: "MediaOnTauri"
         logo: "assets/tools/mediaontauri.png"
@@ -603,6 +641,12 @@ services:
         url: "https://sourceforge.net/projects/sacddecoder/files/macOS%20%2BWindows/foo_input_udsd/"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Harmonoid"
+        logo: "assets/tools/harmonoid.png"
+        subtitle: "Plays & manages your music library."
+        url: "https://harmonoid.com/downloads"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "Boom Audio Player"
         logo: "assets/tools/boomaudioplayer.png"
         subtitle: "Simplified, lightweight, 'just play music' audio player for casual users, forked from the powerful but complex foobar2000."
@@ -1221,6 +1265,12 @@ services:
         subtitle: "Custom Discord App aiming to provide better performance"
         url: "https://github.com/Vencord/Vesktop/releases/latest"
         target: "_blank" # optional html a tag target attribute  
+
+      - name: "Element"
+        logo: "assets/tools/element.png"
+        subtitle: "Glossy desktop Matrix client with an emphasis on performance and usability."
+        url: "https://element.io/en/download"
+        target: "_blank" # optional html a tag target attribute  
         
       - name: "Ventrilo"
         logo: "assets/tools/ventrilo.png"
@@ -1558,8 +1608,8 @@ services:
       - name: "LibreCAD"
         logo: "assets/tools/librecad.png"
         subtitle: "2D CAD program that can read DXF/DWG files and can write DXF/PDF/SVG files. It supports point/line/circle/ellipse/parabola/spline primitives."
-        tag: "Nightly"        
-        url: "https://github.com/LibreCAD/LibreCAD/actions/workflows/build-all.yml"
+        tag: "Alpha"        
+        url: "https://github.com/LibreCAD/LibreCAD/releases/tag/2.2.2_alpha-latest"
         target: "_blank" # optional html a tag target attribute
         
       - name: "GameMaker"
@@ -1660,6 +1710,13 @@ services:
   - name: "Office"
     icon: "fa-solid fa-briefcase"
     items:
+      - name: "Microsoft 365 (Office)"
+        logo: "assets/tools/msoffice365.png"
+        subtitle: "Word, Excel, PowerPoint, and more."
+        tag: "ARM64EC"
+        url: "https://apps.microsoft.com/store/detail/microsoft-365-office/9WZDNCRD29V9"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "LibreOffice"
         logo: "assets/tools/libreoffice.png"
         subtitle: "Open source office suite, compatible with Microsoft Office/365 files (.doc, .docx, .xls, .xlsx, .ppt, .pptx)"
@@ -1752,6 +1809,12 @@ services:
         url: "https://www.cube-soft.com/cubepdf/"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Prince 16"
+        logo: "assets/tools/prince16htmltopdf.png"
+        subtitle: "Professional commercial HTML to PDF converter"        
+        url: "https://www.princexml.com/download/"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "TeXstudio"
         logo: "assets/tools/texstudio.png"
         subtitle: "Unofficial builds, fully featured LaTeX editor"
@@ -1769,13 +1832,6 @@ services:
         subtitle: "Print labels, barcodes, receipts and more from a webpage using HTML, JavaScript and Java."
         tag: "Java"
         url: "https://qz.io/download/?arch=aarch64#"
-        target: "_blank" # optional html a tag target attribute
-
-      - name: "Microsoft 365 (Office)"
-        logo: "assets/tools/msoffice365.png"
-        subtitle: "Word, Excel, PowerPoint, and more."
-        tag: "ARM64EC"
-        url: "https://apps.microsoft.com/store/detail/microsoft-365-office/9WZDNCRD29V9"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Microsoft To do"
@@ -1894,7 +1950,7 @@ services:
         target: "_blank"
 
       - name: "LiquidText" # App name
-        subtitle: "Review, gather, and organize information across all your documents: th"
+        subtitle: "Review, gather, and organize information across all your documents."
         logo: "assets/tools/liquidtext.png" # App icon
         url: "https://apps.microsoft.com/detail/9n9z9nsv47fl" # URL to download the app
         target: "_blank"
@@ -1935,6 +1991,12 @@ services:
         url: "https://zebra.ddscentral.org/pub/downloads/thunderbird-arm64/"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Fantastical"
+        logo: "assets/tools/fantastical.png"
+        subtitle: "Subscription based multiple award-winning calendar app."
+        url: "https://apps.microsoft.com/detail/9p0kn9s5rp86"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "Zotero"
         logo: "assets/tools/zotero.png"
         subtitle: "Free tool to help you collect, organize, annotate, cite, and share research"
@@ -2899,6 +2961,12 @@ services:
         subtitle: "WireGuard based VPN for creating networks without the need for port forwarding."
         url: "https://pkgs.tailscale.com/stable/#windows"
         target: "_blank" # optional html a tag target attribute
+
+      - name: "NetBird"
+        logo: "assets/tools/netbird.png"
+        subtitle: "WireGuard based VPN for overlay network with Zero Trust Network Access, providing a unified open source platform for reliable and secure connectivity."
+        url: "https://app.netbird.io/install"
+        target: "_blank" # optional html a tag target attribute
         
       - name: "EasyTier"
         logo: "assets/tools/EasyTier.png"
@@ -3214,7 +3282,7 @@ services:
 
       - name: "Flying Carpet"
         logo: "assets/tools/flyingcarpet.png"
-        subtitle: "unofficial builds"
+        subtitle: "Unofficial build, Send and receive files between Android, iOS, Linux, macOS, and Windows over ad hoc WiFi."
         url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/FlyingCarpet"
         target: "_blank" # optional html a tag target attribute
 
@@ -3677,6 +3745,12 @@ services:
         url: "https://forge.rust-lang.org/infra/other-installation-methods.html#standalone"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Rustup"
+        logo: "assets/tools/rust.png"
+        subtitle: "The preferred way to install/manage multiple versions of Rust."
+        url: "https://rustup.rs/"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "Dart"
         logo: "assets/tools/dart.png"
         subtitle: "Approachable, portable, and productive language for high-quality apps on any platform."
@@ -4967,6 +5041,11 @@ services:
         logo: "assets/tools/fluentflyout.png"
         subtitle: "Media Flyouts, Taskbar Widgets and more."
         url: "https://github.com/unchihugo/FluentFlyout/releases"
+
+      - name: "DynamicWin Legacy"
+        logo: "assets/tools/dynamicwin.png"
+        subtitle: "Dynamic Island inspired Windows App that brings in a bunch of features like widgets or a file tray that works like a clipboard. Similar to dynamic notches that you can find on macOS like NotchNook."
+        url: "https://github.com/59xa/DynamicWin-Legacy/releases"
         
       - name: "FlipIt"
         logo: "assets/tools/flipit.png"
@@ -5211,7 +5290,7 @@ services:
       - name: "Eden"
         logo: "assets/tools/eden.png"
         subtitle: "a fork of Yuzu, Switch emulator"   
-        url: "https://github.com/eden-emulator/Releases/releases/latest"
+        url: "https://git.eden-emu.dev/eden-emu/eden/releases"
         target: "_blank" # optional html a tag target attribute
         
       - name: "Kenji-NX"
@@ -6593,7 +6672,13 @@ services:
         subtitle: "Developer toolkit for running any AI model locally — across NPUs, GPUs, and CPUs"
         url: "https://github.com/NexaAI/nexa-sdk"
         target: "_blank" # optional html a tag target attribute
-
+        
+      - name: "GitHub Copilot Taskbar GUI"
+        logo: "assets/tools/github_copilot_taskbar_gui.png"
+        subtitle: "System tray access to GitHub Copilot CLI with automatic context awareness. Detects active focus, open applications, file system state, and running services to augment prompts with relevant environment information."
+        url: "https://github.com/sirredbeard/ghcopilot-taskbar-gui/releases"
+        target: "_blank" # optional html a tag target attribute
+        
   - name: "Drivers"
     icon: "fa-solid fa-gears"
     items:
@@ -6828,6 +6913,12 @@ services:
         url: "https://www.toshibatec.com/information/20251008_02.html"
         target: "_blank" # optional html a tag target attribute 
 
+      - name: "Dymo"
+        logo: "assets/tools/dymo.png"
+        subtitle: "Supports the Labelmaker 5 series and later."
+        url: "https://www.dymo.com/online-support.html"
+        target: "_blank" # optional html a tag target attribute 
+        
       - name: "Arkscan"
         logo: "assets/tools/arkscan.png"
         subtitle: "Arkscan 2054A, 2054K, 2054N, and 3044C multi-functional thermal printer drivers download half way down page."
@@ -6840,6 +6931,12 @@ services:
         url: "https://help.flashlabel.com/support/search/solutions?term=windows%20arm"
         target: "_blank" # optional html a tag target attribute 
         
+      - name: "Zebra Printer Driver"
+        logo: "assets/tools/zebraprinters.png"
+        subtitle: "Version 10 adds Windows ARM support. Check release notes for supported printers."
+        url: "https://www.zebra.com/us/en/support-downloads/printers/printer-drivers.html?nocache="
+        target: "_blank" # optional html a tag target attribute  
+        
       - name: "uniFLOW Online Virtual Printer"
         logo: "assets/tools/uniflow.png"
         subtitle: "Print securely from any Windows 11 PC to uniFLOW Online"
@@ -6851,9 +6948,15 @@ services:
         subtitle: "The uniFLOW Printer App extends the built in IPP functionality to provide a better user interface and more printing options than are currently available with the built-in Mopria functionality alone."
         url: "https://apps.microsoft.com/detail/9nmbr75x8994"
         target: "_blank" # optional html a tag target attribute   
-        
-      - name: "Zebra Printer Driver"
-        logo: "assets/tools/zebraprinters.png"
-        subtitle: "Version 10 adds Windows ARM support. Check release notes for supported printers."
-        url: "https://www.zebra.com/us/en/support-downloads/printers/printer-drivers.html?nocache="
-        target: "_blank" # optional html a tag target attribute           
+
+      - name: "Papercut"
+        logo: "assets/tools/papercut.png"
+        subtitle: "Widely used, vendor-agnostic print management software designed to help organizations monitor, control, and secure their printing, copying, and scanning."
+        url: "https://www.papercut.com/kb/Main/windows-arm64-support-across-the-papercut-portfolio/#products-and-features-that-support-arm64"
+        target: "_blank" # optional html a tag target attribute  
+
+      - name: "ezeep Blue"
+        logo: "assets/tools/ezeep.png"
+        subtitle: "ezeep Blue makes printing from any device to any printer a breeze."
+        url: "https://support.ezeep.com/en/support/solutions/articles/43000762230-ezeep-blue-print-app-for-windows-on-arm"
+        target: "_blank" # optional html a tag target attribute  
