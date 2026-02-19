@@ -6924,6 +6924,12 @@ services:
         url: "http://dege.freeweb.hu/dgVoodoo2/dgVoodoo2/"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Steinberg ASIO Driver"
+        logo: "assets/tools/steinberg.png"
+        subtitle: "Universal ASIO driver for Windows that works with a wide range of audio interfaces."
+        url: "https://helpcenter.steinberg.de/hc/en-us/articles/17863730844946-Steinberg-built-in-ASIO-Driver-information-download"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "Virtual-Display-Driver"
         logo: "assets/tools/vdd.png"
         subtitle: "Add virtual monitors to your windows 10/11 device! Works with VR, OBS, Sunshine, and/or any desktop sharing software."
