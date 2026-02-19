@@ -3973,6 +3973,13 @@ services:
         subtitle: "Modern runtime for JavaScript and TypeScript."
         url: "https://github.com/denoland/deno/releases"
         target: "_blank" # optional html a tag target attribute
+
+      - name: "Bun"
+        logo: "assets/tools/bun.png"
+        subtitle: "All-in-one toolkit for JavaScript and TypeScript apps."
+        tag: "Beta"
+        url: "https://buildkite.com/bun/bun/builds/37525/steps/canvas?sid=019c73a8-0aa1-405a-a3d6-6f7505fd793b"
+        target: "_blank" # optional html a tag target attribute
         
       - name: "Electron"
         logo: "assets/tools/electron.png"
