@@ -4103,6 +4103,12 @@ services:
         url: "https://tortoisegit.org/download/"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Tower Git Client"
+        logo: "assets/tools/towergit.png"
+        subtitle: "Subscription based, leading user-friendly graphical Git client."
+        url: "https://www.git-tower.com/windows"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "Page Spy"
         logo: "assets/tools/PageSpy.png"
         subtitle: "Lightweight remote debugging platform."
