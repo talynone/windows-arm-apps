@@ -6892,6 +6892,12 @@ services:
         url: "https://github.com/ai-shifu/ChatALL/releases"
         target: "_blank" # optional html a tag target attribute
         
+      - name: "Crush"
+        logo: "assets/tools/crush.png"
+        subtitle: "Terminal-based AI coding assistant. It supports multiple LLM providers, LSP integration, MCP servers, and session-based context management."
+        url: "https://github.com/charmbracelet/crush/releases"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "GitHub Copilot Taskbar GUI"
         logo: "assets/tools/github_copilot_taskbar_gui.png"
         subtitle: "System tray access to GitHub Copilot CLI with automatic context awareness. Detects active focus, open applications, file system state, and running services to augment prompts with relevant environment information."
