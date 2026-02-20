@@ -3769,6 +3769,12 @@ services:
         url: "https://windsurf.com/download/editor#all-download-options"
         target: "_blank" # optional html a tag target attribute        
         
+      - name: "Coder Desktop"
+        logo: "assets/tools/coder.png"
+        subtitle: "Native companion application for the Coder platform designed to bridge the gap between remote workspaces and a developer's local machine."
+        url: "https://github.com/coder/coder-desktop-windows/releases"
+        target: "_blank" # optional html a tag target attribute  
+        
       - name: "Arduino App Lab"
         logo: "assets/tools/arduino.png"
         subtitle: "Visual environment for managing your UNO Q board."
