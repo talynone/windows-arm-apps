@@ -1504,6 +1504,12 @@ services:
         url: "https://github.com/Ruben2776/PicView/releases/"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "qView"
+        logo: "assets/tools/clionly.png"
+        subtitle: "Practical and minimal image viewer."
+        url: "https://github.com/jurplel/qView/releases"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "RadiAnt DICOM Viewer"
         logo: "assets/tools/radiantdicomviewer.png"
         subtitle: "Trial version, PACS DICOM viewer for medical images."
@@ -5064,7 +5070,7 @@ services:
         subtitle: "Desktop version of the Bitwarden client."
         url: "https://github.com/bitwarden/clients/releases"
         target: "_blank" # optional html a tag target attribute
-
+        
       - name: "Absolute Secure Endpoint"
         logo: "assets/tools/absolute.png"
         subtitle: "Cloud security suite."
