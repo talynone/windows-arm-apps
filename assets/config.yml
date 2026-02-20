@@ -600,7 +600,7 @@ services:
       - name: "Fladder"
         logo: "assets/tools/fladder.png"
         subtitle: "Unofficial build, third-party native Jellyfin client"
-        url: "https://github.com/talynone/Fladder/actions"
+        url: "https://github.com/talynone/Fladder/releases"
         target: "_blank" # optional html a tag target attribute  
         
       - name: "Plezy"
@@ -3673,6 +3673,24 @@ services:
         url: "https://apps.microsoft.com/detail/9nkb9hx8rjz3"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "TortoiseGit"
+        logo: "assets/tools/TortoiseGit.png"
+        subtitle: "A Windows Shell Interface to Git and based on TortoiseSVN."
+        url: "https://tortoisegit.org/download/"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Tower Git Client"
+        logo: "assets/tools/towergit.png"
+        subtitle: "Subscription based, leading user-friendly graphical Git client."
+        url: "https://www.git-tower.com/windows"
+        target: "_blank" # optional html a tag target attribute
+        
+      - name: "TortoiseSVN"
+        logo: "assets/tools/TortoiseSVN.png"
+        subtitle: "A Subversion client, implemented as a windows shell extension."
+        url: "https://tortoisesvn.net/downloads.html"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "git-cliff"
         logo: "assets/tools/gitcliff.png"
         subtitle: "A highly customizable Changelog Generator."
@@ -4107,24 +4125,6 @@ services:
         logo: "assets/tools/redpanda.png"
         subtitle: "High-performance, C++ based, Kafka-compatible streaming engine."
         url: "https://github.com/redpanda-cpp/woa/releases"
-        target: "_blank" # optional html a tag target attribute
-
-      - name: "TortoiseSVN"
-        logo: "assets/tools/TortoiseSVN.png"
-        subtitle: "A Subversion client, implemented as a windows shell extension."
-        url: "https://tortoisesvn.net/downloads.html"
-        target: "_blank" # optional html a tag target attribute
-
-      - name: "TortoiseGit"
-        logo: "assets/tools/TortoiseGit.png"
-        subtitle: "A Windows Shell Interface to Git and based on TortoiseSVN."
-        url: "https://tortoisegit.org/download/"
-        target: "_blank" # optional html a tag target attribute
-
-      - name: "Tower Git Client"
-        logo: "assets/tools/towergit.png"
-        subtitle: "Subscription based, leading user-friendly graphical Git client."
-        url: "https://www.git-tower.com/windows"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Page Spy"
