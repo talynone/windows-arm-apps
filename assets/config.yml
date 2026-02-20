@@ -1778,7 +1778,7 @@ services:
         target: "_blank" # optional html a tag target attribute
 
       - name: "OnlyOffice"
-        logo: "assets/tools/libreoffice.png"
+        logo: "assets/tools/onlyoffice.png"
         subtitle: "AGPLv3, work with documents, spreadsheets, presentations, fillable forms and PDF files on your PC."
         url: "https://www.onlyoffice.com/download-desktop"
         target: "_blank" # optional html a tag target attribute
