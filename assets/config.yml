@@ -5059,13 +5059,19 @@ services:
         url: "https://surfshark.com/antivirus"
         target: "_blank" # optional html a tag target attribute  
 
+      - name: "Burp Suite"
+        logo: "assets/tools/burpsuite.png"
+        subtitle: "Industry-standard software platform for web application security testing and penetration testing."
+        url: "https://portswigger.net/burp/releases"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "ClamAV"
         logo: "assets/tools/clamav.png"
         subtitle: "Open source anti-virus toolkit."
         tag: "command-line only"
         url: "https://www.clamav.net/downloads#collapseWindowsproduction"
         target: "_blank" # optional html a tag target attribute
-
+        
   - name: "Theme & Styles"
     icon: "fa-solid fa-brush"
     items:
