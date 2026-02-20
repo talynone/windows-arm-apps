@@ -4545,6 +4545,12 @@ services:
         url: "https://podman-desktop.io/downloads"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Freelens"
+        logo: "assets/tools/freelens.png"
+        subtitle: "Free IDE for Kubernetes."
+        url: "https://github.com/freelensapp/freelens/releases"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "Disk Jockey"
         logo: "assets/tools/diskjockey.png"
         subtitle: "Free tool to create disk images that work in devices like BlueSCSI, Floppy Emu and PiSCSI, as well as in emulators like Snow, Basilisk II and Mini vMac."
