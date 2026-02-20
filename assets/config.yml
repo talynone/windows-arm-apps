@@ -508,11 +508,11 @@ services:
         url: "https://github.com/yt-dlp/FFmpeg-Builds/releases"
         target: "_blank"
         
-      - name: "Open Video Downloader"
-        logo: "assets/tools/openvideodownloader.png"
-        subtitle: "GUI for YT-DLP."
-        url: "https://github.com/jely2002/youtube-dl-gui/releases"
-        target: "_blank"
+#      - name: "Open Video Downloader"
+#        logo: "assets/tools/openvideodownloader.png"
+#        subtitle: "GUI for YT-DLP."
+#        url: "https://github.com/jely2002/youtube-dl-gui/releases"
+#        target: "_blank"
         
       - name: "Lux"
         logo: "assets/tools/Lux.png"
