@@ -1143,6 +1143,12 @@ services:
         url: "https://apps.microsoft.com/store/detail/twitter/9WZDNCRFJ140"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Beeskie"
+        logo: "assets/tools/beeskie.png"
+        subtitle: "Bluesky client for Windows."
+        url: "https://apps.microsoft.com/detail/9pcgnr7qhqgp"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "Instagram"
         logo: "assets/tools/instagram.png"
         subtitle: "Visual social media platform for sharing photos and short videos."
@@ -2019,6 +2025,12 @@ services:
         logo: "assets/tools/mswhiteboard.png"
         subtitle: "The collaborative digital canvas in Microsoft 365 for effective meetings and engaged learning."
         url: "https://apps.microsoft.com/detail/9mspc6mp8fm4"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Markerpad"
+        logo: "assets/tools/markerpad.png"
+        subtitle: "Intuitive digital whiteboard app designed for thinkers, problem solvers, and creators."
+        url: "https://apps.microsoft.com/detail/9nh0wpdrk28t"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Xmind"
