@@ -2118,6 +2118,12 @@ services:
         url: "https://www.digiexam.com/windows-exam-app-download"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Emedley ExamN Browser"
+        logo: "assets/tools/emedley.png"
+        subtitle: "ExamN Browser (part of the examN+ assessment suite by eMedley) is a secure, proprietary 'lockdown' browser used by health science programs (medical, nursing, dental schools, etc.) to deliver high-stakes exams."
+        url: "https://he.emedley.com/downloads"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "Moneydance"
         logo: "assets/tools/moneydance.png"
         subtitle: "Full-featured personal finance app that doesn't compromise your privacy."
