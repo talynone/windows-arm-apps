@@ -2876,6 +2876,12 @@ services:
         subtitle: "unofficial builds - Screen capture, file sharing and productivity tool"
         url: "https://github.com/ahossny/ShareX/releases"
         target: "_blank"
+
+      - name: "SnapX"
+        logo: "assets/tools/snapx.png"
+        subtitle: "Capture, share, and boost productivity. All in one. Built on the foundations of ShareX."
+        url: "https://github.com/SnapXL/SnapX/releases"
+        target: "_blank"
         
       - name: "HttpMaster"
         logo: "assets/tools/httpmaster.png"
