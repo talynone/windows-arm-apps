@@ -4139,6 +4139,12 @@ services:
         url: "https://apps.microsoft.com/detail/XP99F8QBDFR0H5"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Termora"
+        logo: "assets/tools/termora.png"
+        subtitle: "Terminal emulator and SSH client."
+        url: "https://github.com/TermoraDev/termora/releases"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "MSYS2"
         logo: "assets/tools/msys2.png"
         subtitle: "Software environment providing a Linux-like shell and tools (Bash, GCC, Git) for building native Windows applications, using a package manager (pacman) for easy installation, making cross-platform development simpler."
