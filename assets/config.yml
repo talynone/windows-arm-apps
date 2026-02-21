@@ -5242,7 +5242,13 @@ services:
         subtitle: "Sleek, open-source file explorer built for Windows, designed to help you organize files and folders with ease."
         url: "https://files.community/download"
         target: "_blank" # optional html a tag target attribute
-
+        
+      - name: "FileBot"
+        logo: "assets/tools/filebot.png"
+        subtitle: "Commercial, the ultimate TV and Movie Renamer."
+        url: "https://www.filebot.net/#download"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "Coodesker"
         logo: "assets/tools/coodesker.png"
         subtitle: "Automatically organize your desktop shortcuts icons and running tasks."
