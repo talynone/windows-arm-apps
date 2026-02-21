@@ -2147,12 +2147,6 @@ services:
         subtitle: "For tracking packages for different sending couriers"
         url: "https://apps.microsoft.com/detail/9pn0mhpxh0g6"
         target: "_blank" # optional html a tag target attribute  
-
-      - name: "Fusion Suite (JAWS and ZoomText)"
-        logo: "assets/tools/fusionsuite.png"
-        subtitle: "Commercial, combines JAWS® screen reader and ZoomText® magnifier into one powerful, future-ready solution with AI clarity, seamless sync, and enterprise-grade support."
-        url: "https://support.freedomscientific.com/Downloads/ARM64"
-        target: "_blank" # optional html a tag target attribute  
         
   - name: "Tools"
     icon: "fa-solid fa-screwdriver-wrench"
@@ -5490,6 +5484,12 @@ services:
         subtitle: "World’s most popular screen reader software."
         url: "https://support.freedomscientific.com/Downloads/JAWS"
         target: "_blank" # optional html a tag target attribute
+
+      - name: "Fusion Suite (JAWS and ZoomText)"
+        logo: "assets/tools/fusionsuite.png"
+        subtitle: "Commercial, combines JAWS® screen reader and ZoomText® magnifier into one powerful, future-ready solution with AI clarity, seamless sync, and enterprise-grade support."
+        url: "https://support.freedomscientific.com/Downloads/ARM64"
+        target: "_blank" # optional html a tag target attribute  
 
       - name: "Glance"
         logo: "assets/tools/glance.png"
