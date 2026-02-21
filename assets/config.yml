@@ -6940,6 +6940,12 @@ services:
         url: "https://github.com/ai-shifu/ChatALL/releases"
         target: "_blank" # optional html a tag target attribute
         
+      - name: "AIChat"
+        logo: "assets/tools/clionly.png"
+        subtitle: "All-in-one LLM CLI tool featuring Shell Assistant, Chat-REPL, RAG, AI Tools & Agents, with access to OpenAI, Claude, Gemini, Ollama, Groq, and more."
+        url: "https://github.com/sigoden/aichat/releases"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "Crush"
         logo: "assets/tools/crush.png"
         subtitle: "Terminal-based AI coding assistant. It supports multiple LLM providers, LSP integration, MCP servers, and session-based context management."
