@@ -4663,6 +4663,12 @@ services:
         url: "https://mumu.163.com/"
         target: "_blank"
         
+      - name: "Tencent App Store (YingYongBao)"
+        logo: "assets/tools/yingyongbao.png"
+        subtitle: "Chinese Android emulator for Snapdragon X devices"
+        url: "https://sj.qq.com/download"
+        target: "_blank"
+        
       - name: "windows95"
         logo: "assets/tools/windows95.png"
         subtitle: "Windows 95 in Electron"
