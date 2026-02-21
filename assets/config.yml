@@ -3296,7 +3296,13 @@ services:
         subtitle: "Free, lightweight, open-source terminal emulator for Windows that enables secure remote server management via SSH, Telnet, and serial connections."
         url: "https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html"
         target: "_blank" # optional html a tag target attribute
-
+        
+      - name: "OpenSSL"
+        logo: "assets/tools/clionly.png"
+        subtitle: "OpenSSL Installation Project is dedicated to providing a simple installation of OpenSSL."
+        url: "https://slproweb.com/products/Win32OpenSSL.html"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "Natpass"
         logo: "assets/tools/natpass.png"
         subtitle: "Supports shell management and remote desktop management."
