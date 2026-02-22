@@ -2959,6 +2959,12 @@ services:
         url: "https://apps.microsoft.com/detail/xp8jrf5sxv03zm"
         target: "_blank"
 
+      - name: "BenQ InstaShare 2"
+        logo: "assets/tools/benqinstashare2.png"
+        subtitle: "Wireless screen sharing software for BenQ interactive displays, smart signage, and smart projectors."
+        url: "https://www.benq.com/en-us/business/support/products/ifp/instashare-2/download.html"
+        target: "_blank"
+        
       - name: "Sefirah"
         logo: "assets/tools/Sefirah.png"
         subtitle: "Seamlessly connect your phone and PC to boost your productivity."
