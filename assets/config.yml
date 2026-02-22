@@ -1479,6 +1479,12 @@ services:
         subtitle: "Unofficial desktop application for the open-source design tool, Penpot."
         url: "https://github.com/author-more/penpot-desktop/releases"
         target: "_blank" # optional html a tag target attribute
+
+      - name: "WireframeSketcher"
+        logo: "assets/tools/wireframesketcher.png"
+        subtitle: "Commercial wireframing tool that helps designers, developers and product managers quickly create wireframes, mockups and prototypes for desktop, web and mobile applications."
+        url: "https://wireframesketcher.com/download.html"
+        target: "_blank" # optional html a tag target attribute
         
       - name: "BandiView"
         logo: "assets/tools/bandiview.png"
