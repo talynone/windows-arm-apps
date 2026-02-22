@@ -1392,8 +1392,8 @@ services:
 
       - name: "Pinta"
         logo: "assets/tools/pinta.png"
-        subtitle: "Beta release, GTK clone of Paint.Net 3.0"
-        url: "https://github.com/PintaProject/Pinta/releases/tag/3.1-beta1"
+        subtitle: "GTK clone of Paint.Net 3.0"
+        url: "https://github.com/PintaProject/Pinta/releases"
         target: "_blank" # optional html a tag target attribute
         
       - name: "Luminar Neo"
