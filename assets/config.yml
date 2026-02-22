@@ -3061,7 +3061,7 @@ services:
       - name: "Private Internet Access (PIA)"
         logo: "assets/tools/pia.png"
         subtitle: "beta version, VPN"
-        url: "https://www.privateinternetaccess.com/download/windows-vpn"
+        url: "https://www.privateinternetaccess.com/pages/changelog"
         target: "_blank" # optional html a tag target attribute
 
       - name: "ExpressVPN"
