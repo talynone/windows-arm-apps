@@ -1137,6 +1137,12 @@ services:
         url: "https://zoom.us/download#client_4meeting"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Cisco Webex"
+        logo: "assets/tools/webex.png"
+        subtitle: "AI-powered, cloud-based collaboration suite that enables secure, all-in-one video conferencing, calling, messaging, and event hosting for hybrid work."
+        url: "https://www.webex.com/downloads.html"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "Twitter"
         logo: "assets/tools/twitter.png"
         subtitle: "Microblogging platform for sharing short posts, photos, and videos."
@@ -1755,6 +1761,12 @@ services:
         url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/MonkeysAudio"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "LAME MP3 Bundle"
+        logo: "assets/tools/lamemp3bundle.png"
+        subtitle: "Pre-compiled, user-friendly package of the highest quality LAME MP3 encoder."
+        url: "https://www.rarewares.org/mp3-lame-bundle.php"
+        target: "_blank" # optional html a tag target attribut
+        
       - name: "FLAC"
         logo: "assets/tools/flac.png"
         subtitle: "Unofficial builds / lossless PCM"
@@ -2785,7 +2797,13 @@ services:
         subtitle: "Clone, Image, Backup and Restore Drives"
         url: "https://www.easyuefi.com/backup-software/backup-suite-free.html"
         target: "_blank"
-
+        
+      - name: "Plakar"
+        logo: "assets/tools/plakar.png"
+        subtitle: "open-source backup and restore utility."
+        url: "https://plakar.io/download/"
+        target: "_blank"
+        
       - name: "GalaxyBudsClient"
         logo: "assets/tools/galaxybudsclient.png"
         subtitle: "An unofficial manager for Galaxy Buds devices"
