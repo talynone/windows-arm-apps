@@ -4472,9 +4472,9 @@ services:
         url: "https://github.com/mijk84/win-arm64-binaries/releases/tag/qtemu"
         target: "_blank" # optional html a tag target attribute
 
-      - name: "QEMU v10"
+      - name: "QEMU Latest (v10)"
         logo: "assets/tools/qemu.png"
-        subtitle: "Experimental builds, generic and open source machine emulator and virtualizer"
+        subtitle: "Generic and open source machine emulator and virtualizer"
         url: "https://qemu.weilnetz.de/aarch64/"
         target: "_blank" # optional html a tag target attribute
         
