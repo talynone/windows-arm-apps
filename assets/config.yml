@@ -1905,6 +1905,12 @@ services:
         url: "https://www.princexml.com/download/"
         target: "_blank" # optional html a tag target attribute
         
+      - name: "Saladict"
+        logo: "assets/tools/saladict.png"
+        subtitle: "Open source, all-in-one pop-up dictionary and page translator."
+        url: "https://app.saladict.net/en/download.html"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "TeXstudio"
         logo: "assets/tools/texstudio.png"
         subtitle: "Unofficial builds, fully featured LaTeX editor"
@@ -7388,4 +7394,10 @@ services:
         logo: "assets/tools/ezeep.png"
         subtitle: "ezeep Blue makes printing from any device to any printer a breeze."
         url: "https://support.ezeep.com/en/support/solutions/articles/43000762230-ezeep-blue-print-app-for-windows-on-arm"
+        target: "_blank" # optional html a tag target attribute  
+
+      - name: "Tungsten Printix Client"
+        logo: "assets/tools/tungstenprintix.png"
+        subtitle: "Cloud print management solution."
+        url: "https://docshield.tungstenautomation.com/Printix/en_US/help/admin/Printix_admin/t_administrator_software.html"
         target: "_blank" # optional html a tag target attribute  
