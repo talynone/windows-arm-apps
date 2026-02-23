@@ -5466,6 +5466,12 @@ services:
         url: "https://github.com/Stellarium/stellarium/releases"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "OpenRocket"
+        logo: "assets/tools/openrocket.png"
+        subtitle: "Free, fully featured model rocket simulator that allows you to design and simulate your rockets before building and flying them."
+        url: "https://openrocket.info/downloads.html"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "BongoCat"
         logo: "assets/tools/BongoCat.png"
         subtitle: "Adorable desktop mascot that mirrors your keyboard taps & mouse movements in real-time."
