@@ -7068,6 +7068,12 @@ services:
         url: "https://github.com/VirtualDrivers/Virtual-Display-Driver/releases"
         target: "_blank" # optional html a tag target attribute
         
+      - name: "DisplayLink Drivers"
+        logo: "assets/tools/displaylink.png"
+        subtitle: "Enable connecting to multiple monitors, docks, or adapters via standard USB-A or USB-C ports. Act as a virtual graphics card, compressing and transmitting display data over USB to connected hardware."
+        url: "https://www.synaptics.com/products/displaylink-graphics/downloads/windows"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "Zadig (libwdi)"
         logo: "assets/tools/zadig.png"
         subtitle: "Windows Driver Installation library for USB devices."
