@@ -6542,7 +6542,13 @@ services:
         subtitle: "an OldSchool RuneScape client"
         url: "https://runelite.net/"
         target: "_blank" # optional html a tag target attribute
-
+      
+      - name: "GrinderScape"
+        logo: "assets/tools/grinderscape.png"
+        subtitle: "Client to connect to GrinderScape's (Runescape) private servers."
+        url: "https://www.grinderscape.org/download"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "Microsoft Solitaire Collection"
         logo: "assets/tools/solitaire.png"
         subtitle: "Enjoy classic Solitaire game modes everyone loves - Klondike Solitaire, Spider Solitaire, FreeCell Solitaire, TriPeaks Solitaire & Pyramid Solitaire."
