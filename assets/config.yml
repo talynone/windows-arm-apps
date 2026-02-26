@@ -3272,7 +3272,7 @@ services:
       - name: "SoftEther VPN"
         logo: "assets/tools/softether.png"
         subtitle: "Open source cross-platform multi-protocol VPN software."
-        tag: "Alpha, unsigned Network driver"
+        tag: "Alpha, unsigned network driver"
         url: "https://github.com/SoftEtherVPN/SoftEtherVPN/actions/workflows/windows.yml"
         target: "_blank" # optional html a tag target attribute
         
@@ -4099,8 +4099,7 @@ services:
       - name: "Bun"
         logo: "assets/tools/bun.png"
         subtitle: "All-in-one toolkit for JavaScript and TypeScript apps."
-        tag: "Beta"
-        url: "https://buildkite.com/bun/bun/builds/37525/steps/canvas?sid=019c73a8-0aa1-405a-a3d6-6f7505fd793b"
+        url: "https://github.com/oven-sh/bun/releases"
         target: "_blank" # optional html a tag target attribute
         
       - name: "Electron"
