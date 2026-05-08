@@ -6236,8 +6236,7 @@ services:
       - name: "Heroic Games Launcher"
         logo: "assets/tools/heroic.png"
         subtitle: "Amazon, GOG, Epic game stores launcher."
-        tag: "Nightly"
-        url: "https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher/actions/workflows/build-main.yml"
+        url: "https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Xbox"
