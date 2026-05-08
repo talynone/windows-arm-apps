@@ -3107,10 +3107,10 @@ services:
         url: "https://github.com/SnapXL/SnapX/releases"
         target: "_blank"
 
-      - name: "Yoink"
-        logo: "assets/tools/yoink.png"
+      - name: "OddSnap"
+        logo: "assets/tools/oddsnap.png"
         subtitle: "Open-source powerful screenshot tool. Capture, annotate, and share with a single hotkey."
-        url: "https://github.com/jasperdevs/yoink/releases"
+        url: "https://github.com/jasperdevs/odd-snap/releases"
         target: "_blank"
         
       - name: "HttpMaster"
