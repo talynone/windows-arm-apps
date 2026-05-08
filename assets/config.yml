@@ -272,6 +272,12 @@ services:
         subtitle: "Google Chromium, sans dependency on Google web services. It also features some tweaks to enhance privacy, control, and transparency (almost all of which require manual activation or enabling)."
         url: "https://ungoogled-software.github.io/ungoogled-chromium-binaries/releases/windows/arm64/"
         target: "_blank" # optional html a tag target attribute
+
+      - name: "Helium Browser"
+        logo: "assets/tools/heliumbrowser.png"
+        subtitle: "Ungoogled Chromium based, privacy-first with unbiased ad-blocking. No bloat and no noise."
+        url: "https://helium.computer/"
+        target: "_blank" # optional html a tag target attribute
         
       - name: "Perplexity Comet"
         logo: "assets/tools/perplexitycomet.png"
