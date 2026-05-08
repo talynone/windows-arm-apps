@@ -525,7 +525,7 @@ services:
         logo: "assets/tools/openvideodownloader.png"
         subtitle: "GUI for YT-DLP."
         url: "https://github.com/jely2002/youtube-dl-gui/releases"
-        target: "_blank"
+        target: "_blank"       
         
       - name: "Lux"
         logo: "assets/tools/Lux.png"
@@ -1552,6 +1552,12 @@ services:
         logo: "assets/tools/wireframesketcher.png"
         subtitle: "Commercial wireframing tool that helps designers, developers and product managers quickly create wireframes, mockups and prototypes for desktop, web and mobile applications."
         url: "https://wireframesketcher.com/download.html"
+        target: "_blank" # optional html a tag target attribute
+        
+      - name: "Lap"
+        logo: "assets/tools/lap.png"
+        subtitle: "Fast Picasa like offline-first photo manager for large local libraries."
+        url: "https://github.com/julyx10/lap/releases"
         target: "_blank" # optional html a tag target attribute
         
       - name: "BandiView"
