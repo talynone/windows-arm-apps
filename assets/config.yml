@@ -2913,6 +2913,12 @@ services:
         subtitle: "Donateware, Http Rest Client and Load Testing for Windows."
         url: "https://websurge.west-wind.com/download"
         target: "_blank"
+
+      - name: "Yaak"
+        logo: "assets/tools/yaak.png"
+        subtitle: "Open-source, most intuitive desktop API client. Organize and execute REST, GraphQL, WebSockets, Server Sent Events, and gRPC."
+        url: "https://github.com/mountain-loop/yaak/releases"
+        target: "_blank"
         
       - name: "PakePlus"
         logo: "assets/tools/PakePlus.png"
@@ -7327,7 +7333,7 @@ services:
         subtitle: "All-in-one LLM CLI tool featuring Shell Assistant, Chat-REPL, RAG, AI Tools & Agents, with access to OpenAI, Claude, Gemini, Ollama, Groq, and more."
         url: "https://github.com/sigoden/aichat/releases"
         target: "_blank" # optional html a tag target attribute
-        
+
       - name: "Crush"
         logo: "assets/tools/crush.png"
         subtitle: "Terminal-based AI coding assistant. It supports multiple LLM providers, LSP integration, MCP servers, and session-based context management."
