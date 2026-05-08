@@ -7346,6 +7346,12 @@ services:
         url: "https://github.com/Sasen12/ComfyUI-ARM-Windows"
         target: "_blank" # optional html a tag target attribute
         
+      - name: "Clawd on Desk"
+        logo: "assets/tools/clawd.png"
+        subtitle: "Open-source, pixel desktop pet that watches Claude Code, Codex, Cursor & other AI coding agents."
+        url: "https://github.com/rullerzhou-afk/clawd-on-desk/releases"
+        target: "_blank" # optional html a tag target attribute
+        
   - name: "Drivers"
     icon: "fa-solid fa-gears"
     items:
