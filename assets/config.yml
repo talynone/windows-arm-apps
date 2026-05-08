@@ -3133,8 +3133,14 @@ services:
 
       - name: "Handy"
         logo: "assets/tools/handy.png"
-        subtitle: "Open source, and extensible speech-to-text application that works completely offline.."
+        subtitle: "Open source, and extensible speech-to-text application that works completely offline."
         url: "https://github.com/cjpais/Handy/releases"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Parla"
+        logo: "assets/tools/parla.png"
+        subtitle: "Open source, voice to text using Whisper, Parakeet and llama.cpp."
+        url: "https://github.com/LitteRabbit-37/Parla/releases"
         target: "_blank" # optional html a tag target attribute
         
       - name: "O&O ShutUp10++"
