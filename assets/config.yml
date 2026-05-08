@@ -5598,26 +5598,37 @@ services:
         logo: "assets/tools/edgegesture.png"
         subtitle: "Enables edge gesture to your windows computer, enhancing the touchscreen experience."
         url: "https://github.com/felix-sky/EdgeGesture/releases"
-
+        target: "_blank"
+        
       - name: "Kando"
         logo: "assets/tools/kando.png"
         subtitle: "Pie menu for doing things with utmost efficiency."
         url: "https://github.com/kando-menu/kando/releases"
-
+        target: "_blank"
+        
       - name: "Touch Dial"
         logo: "assets/tools/touchdial.png"
         subtitle: "Commercial app, customizable on-screen dial that lets you create buttons to open websites and applications, record and play macros, execute key combinations, run Windows actions, launch timers, execute custom PowerShell scripts and more."
         url: "https://apps.microsoft.com/detail/9p29n7s6zn3b"
+        target: "_blank"
         
       - name: "FluentFlyout"
         logo: "assets/tools/fluentflyout.png"
         subtitle: "Media Flyouts, Taskbar Widgets and more."
         url: "https://github.com/unchihugo/FluentFlyout/releases"
-
+        target: "_blank"
+        
       - name: "DynamicWin Legacy"
         logo: "assets/tools/dynamicwin.png"
         subtitle: "Dynamic Island inspired Windows App that brings in a bunch of features like widgets or a file tray that works like a clipboard. Similar to dynamic notches that you can find on macOS like NotchNook."
         url: "https://github.com/59xa/DynamicWin-Legacy/releases"
+        target: "_blank"
+        
+      - name: "GlazeWM"
+        logo: "assets/tools/glazewm.png"
+        subtitle: "Tiling window manager inspired by i3wm."
+        url: "https://github.com/glzr-io/glazewm"
+        target: "_blank"
         
       - name: "FlipIt"
         logo: "assets/tools/flipit.png"
