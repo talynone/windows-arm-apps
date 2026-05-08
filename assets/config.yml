@@ -4263,7 +4263,13 @@ services:
         subtitle: "Approachable, portable, and productive language for high-quality apps on any platform."
         url: "https://dart.dev/get-dart/archive"
         target: "_blank" # optional html a tag target attribute
-
+        
+      - name: "FVM"
+        logo: "assets/tools/clionly.png"
+        subtitle: "Manages Flutter SDK versions per project. Switch between Flutter versions instantly without reinstalling, making it easy to test new releases and maintain consistent builds across your team."
+        url: "https://github.com/leoafarias/fvm/releases"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "MS OpenJDK"
         logo: "assets/tools/openjdk.png"
         subtitle: "Microsoft builds - Java Development Kit."
