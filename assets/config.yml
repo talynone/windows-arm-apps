@@ -6062,7 +6062,14 @@ services:
         subtitle: "unofficial builds, Sega Dreamcast emulator"
         url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/flycast"
         target: "_blank" # optional html a tag target attribute
-
+        
+      - name: "nullDC"
+        logo: "assets/tools/nulldc.png"
+        subtitle: "Sega Dreamcast emulator"
+        tag: "Nightly"
+        url: "https://nulldc.emudev.org/builds/"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "Nintendulator"
         logo: "assets/tools/nintendulator.png"
         subtitle: "unofficial builds, NES (Nintendo) emulator"
