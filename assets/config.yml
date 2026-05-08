@@ -4252,6 +4252,12 @@ services:
         url: "https://go.dev/dl/"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Positron"
+        logo: "assets/tools/positron.png"
+        subtitle: "Unifies exploration and production work in one free, AI-assisted environment, empowering the full spectrum of data science in Python and R."
+        url: "https://positron.posit.co/download.html"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "Rust"
         logo: "assets/tools/rust.png"
         subtitle: "Programming language focused on safety, speed, and concurrency, offering C/C++ performance without garbage collection."
