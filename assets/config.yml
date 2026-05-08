@@ -3112,6 +3112,12 @@ services:
         subtitle: "Open-source powerful screenshot tool. Capture, annotate, and share with a single hotkey."
         url: "https://github.com/jasperdevs/odd-snap/releases"
         target: "_blank"
+
+      - name: "Capster"
+        logo: "assets/tools/capster.png"
+        subtitle: "Screen and video capture with 1TB of free cloud storage."
+        url: "https://github.com/jasperdevs/odd-snap/releases"
+        target: "_blank"
         
       - name: "HttpMaster"
         logo: "assets/tools/httpmaster.png"
