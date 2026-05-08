@@ -6150,8 +6150,14 @@ services:
 
       - name: "BigPEmu"
         logo: "assets/tools/bigpemu.png"
-        subtitle: "an Atari Jaguar emulator"
+        subtitle: "Atari Jaguar emulator"
         url: "https://www.richwhitehouse.com/jaguar/index.php?content=download"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "BigInstinct"
+        logo: "assets/tools/biginstinct.png"
+        subtitle: "Killer Instinct 1 and 2 arcade emulator"
+        url: "https://richwhitehouse.com/ki/index.php?content=download"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Supermodel"
