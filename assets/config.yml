@@ -7317,6 +7317,12 @@ services:
         url: "https://github.com/sirredbeard/ghcopilot-taskbar-gui/releases"
         target: "_blank" # optional html a tag target attribute
         
+      - name: "ComfyUI"
+        logo: "assets/tools/comfyui.png"
+        subtitle: "Unofficial build, open-source, powerful, node-based graphical user interface (GUI) for Stable Diffusion that allows users to design and execute advanced AI image and video generation pipelines."
+        url: "https://github.com/Sasen12/ComfyUI-ARM-Windows"
+        target: "_blank" # optional html a tag target attribute
+        
   - name: "Drivers"
     icon: "fa-solid fa-gears"
     items:
