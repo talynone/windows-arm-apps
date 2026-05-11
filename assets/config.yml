@@ -624,7 +624,7 @@ services:
         
       - name: "Plezy"
         logo: "assets/tools/plezy.png"
-        subtitle: "Modern cross-platform Plex client built with Flutter"
+        subtitle: "Modern cross-platform Plex and JellyFin client, unified installer detects CPU and installs native version."
         url: "https://github.com/edde746/plezy/releases"
         target: "_blank" # optional html a tag target attribute        
 
