@@ -328,6 +328,12 @@ services:
         url: "https://zen-browser.app/download/"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "LibreWolf"
+        logo: "assets/tools/librewolf.png"
+        subtitle: "FireFox engine based, primary goals of privacy, security and user freedom."
+        url: "https://librewolf.net/installation/windows/"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "GNU IceCat"
         logo: "assets/tools/gnuicecat.png"
         subtitle: "GNU version of the Firefox browser. Its main advantage is an ethical one: it is entirely free software. While the Firefox source code from the Mozilla project is free software, they distribute and recommend nonfree software as plug-ins and addons."
