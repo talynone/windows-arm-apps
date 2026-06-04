@@ -855,8 +855,7 @@ services:
       - name: "LosslessCut"
         logo: "assets/tools/losslesscut.png"
         subtitle: "The swiss army knife of lossless video/audio editing."
-        tag: "Nightly"
-        url: "https://mifi.no/llc/nightly/"
+        url: "https://github.com/mifi/lossless-cut/releases"
         target: "_blank" # optional html a tag target attribute
         
       - name: "Gyroflow"
