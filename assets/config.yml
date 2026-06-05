@@ -2311,6 +2311,12 @@ services:
         url: "https://apps.microsoft.com/detail/9nblggh43vhv"
         target: "_blank" # optional html a tag target attribute
         
+      - name: "Neat Notes"
+        logo: "assets/tools/neatnotes.png"
+        subtitle: "Free note-taking app built from the ground up for stylus users."
+        url: "https://apps.microsoft.com/detail/9n8h9xzmhlh6"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "Portfolio Performance"
         logo: "assets/tools/portfolio-performance.png"
         subtitle: "Open source tool for performance of an investment portfolio"
