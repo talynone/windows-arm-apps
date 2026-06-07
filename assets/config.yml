@@ -4819,6 +4819,12 @@ services:
         url: "https://www.virtualbox.org/wiki/Downloads"
         target: "_blank"
         
+      - name: "App Sandbox"
+        logo: "assets/tools/appsandbox.png"
+        subtitle: "Open source,  virtual machine app for Windows and macOS that's focused on performance and ease of use."
+        url: "https://github.com/jamesstringer90/appsandbox/releases"
+        target: "_blank"
+        
       - name: "DOSBox-X"
         logo: "assets/tools/dosbox.png"
         subtitle: "Fork of DOSBox, focuses more on general emulation and accuracy."
