@@ -3236,7 +3236,7 @@ services:
         url: "https://apps.microsoft.com/store/detail/phone-link/9NMPJ99VJBWV"
         subtitle: "Connects your Android or iOS smartphone to your PC, allowing you to view notifications, send texts, make calls, and access photos directly from your desktop."
         target: "_blank" # optional html a tag target attribute
-
+        
       - name: "Lenovo Smart Connect"
         logo: "assets/tools/smartconnect.png"
         subtitle: "Pair Motorola / Lenovo smartphone, PC, and tablet"
@@ -4125,9 +4125,9 @@ services:
         url: "https://www.cursor.com/downloads"
         target: "_blank" # optional html a tag target attribute
 
-      - name: "Google Antigravity"
+      - name: "Google Antigravity, CLI & IDE"
         logo: "assets/tools/googleantigravity.png"
-        subtitle: "Google code editor with Gemini (Visual Studio Code Fork)."
+        subtitle: "Google AI-powered, agent-first development platform designed to build, test, and deploy software applications from scratch using autonomous AI agents. IDE is Visual Studio Code fork."
         url: "https://antigravity.google/download"
         target: "_blank" # optional html a tag target attribute
         
