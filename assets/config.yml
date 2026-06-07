@@ -3576,7 +3576,6 @@ services:
       - name: "SABnzbd"
         logo: "assets/tools/sabnzbd.png"
         subtitle: "Free and easy NZB (newsgroup binary) downloader"
-        tag: "Beta"
         url: "https://sabnzbd.org/downloads.html#"
         target: "_blank" # optional html a tag target attribute
         
