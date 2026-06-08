@@ -328,6 +328,12 @@ services:
         url: "https://zen-browser.app/download/"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "LibreWolf"
+        logo: "assets/tools/librewolf.png"
+        subtitle: "FireFox engine based, primary goals of privacy, security and user freedom."
+        url: "https://librewolf.net/installation/windows/"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "GNU IceCat"
         logo: "assets/tools/gnuicecat.png"
         subtitle: "GNU version of the Firefox browser. Its main advantage is an ethical one: it is entirely free software. While the Firefox source code from the Mozilla project is free software, they distribute and recommend nonfree software as plug-ins and addons."
@@ -526,10 +532,16 @@ services:
         subtitle: "FFmpeg Builds for YT-DLP."
         url: "https://github.com/yt-dlp/FFmpeg-Builds/releases"
         target: "_blank"
+
+      - name: "NeoDLP"
+        logo: "assets/tools/neodlp.png"
+        subtitle: "Open-source, GUI for YT-DLP (Video/Audio Downloader) with Browser Add-In."
+        url: "https://github.com/neosubhamoy/neodlp/releases"
+        target: "_blank"   
         
       - name: "Open Video Downloader"
         logo: "assets/tools/openvideodownloader.png"
-        subtitle: "GUI for YT-DLP."
+        subtitle: "Open-source, GUI for YT-DLP."
         url: "https://github.com/jely2002/youtube-dl-gui/releases"
         target: "_blank"       
         
@@ -568,12 +580,6 @@ services:
         url: "https://artifacts.videolan.org/vlc/nightly-win64-arm-llvm/"
         target: "_blank" # optional html a tag target attribute
 
-      - name: "SMPlayer"
-        logo: "assets/tools/smplayer.png"
-        subtitle: "unofficial builds / enable HW decoding, free multimedia player, work as front-end for MPlayer and mpv playback engines. Designed to play virtually all video and audio formats without requiring external codecs"
-        url: "https://github.com/minnyres/smplayer-windows-arm64/releases"
-        target: "_blank" # optional html a tag target attribute
-
       - name: "mpv"
         logo: "assets/tools/mpv.png"
         subtitle: "Media player, use 'mpv.exe --hwdec', open-source, command-line media player based on MPlayer, known for playing nearly any format with powerful features like advanced video output (HDR, scaling) and extensive customization via scripts and configuration, making it a versatile and high-performance choice for video enthusiasts."
@@ -584,6 +590,18 @@ services:
         logo: "assets/tools/mpv.png"
         subtitle: "Media player, Recommend mpv fork build, offering up-to-date dependencies and features."
         url: "https://github.com/shinchiro/mpv-winbuild-cmake/releases"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Soia"
+        logo: "assets/tools/soia.png"
+        subtitle: "Open-source, mpv based high-performance media player, with HDR/Dolby Vision, WebDAV/DLNA/SMB streaming, dual subtitles, and modern native UI."
+        url: "https://github.com/FengZeng/soia/releases"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "SMPlayer"
+        logo: "assets/tools/smplayer.png"
+        subtitle: "unofficial builds / enable HW decoding, free multimedia player, work as front-end for MPlayer and mpv playback engines. Designed to play virtually all video and audio formats without requiring external codecs"
+        url: "https://github.com/minnyres/smplayer-windows-arm64/releases"
         target: "_blank" # optional html a tag target attribute
         
       - name: "Kodi"
@@ -837,8 +855,7 @@ services:
       - name: "LosslessCut"
         logo: "assets/tools/losslesscut.png"
         subtitle: "The swiss army knife of lossless video/audio editing."
-        tag: "Nightly"
-        url: "https://mifi.no/llc/nightly/"
+        url: "https://github.com/mifi/lossless-cut/releases"
         target: "_blank" # optional html a tag target attribute
         
       - name: "Gyroflow"
@@ -2288,6 +2305,18 @@ services:
         url: "https://github.com/TriliumNext/Trilium/releases"
         target: "_blank" # optional html a tag target attribute
         
+      - name: "Samsung Notes"
+        logo: "assets/tools/samsungnotes.png"
+        subtitle: "Allows you to use the enhanced S Pen to write or draw, and save files to the Cloud. You can use the S Pen to create notes that contain notes, memos, images, voices or music."
+        url: "https://apps.microsoft.com/detail/9nblggh43vhv"
+        target: "_blank" # optional html a tag target attribute
+        
+      - name: "Neat Notes"
+        logo: "assets/tools/neatnotes.png"
+        subtitle: "Free note-taking app built from the ground up for stylus users."
+        url: "https://apps.microsoft.com/detail/9n8h9xzmhlh6"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "Portfolio Performance"
         logo: "assets/tools/portfolio-performance.png"
         subtitle: "Open source tool for performance of an investment portfolio"
@@ -2896,6 +2925,12 @@ services:
         url: "https://github.com/dalyIsaac/Whim/releases"
         target: "_blank"
 
+      - name: "WindowTop"
+        logo: "assets/tools/windowtop.png"
+        subtitle: "Always on Top, Opacity, Picture-in-Picture (PiP), Dark Mode, Anchors"
+        url: "https://windowtop.info/"
+        target: "_blank"
+        
       - name: "Three Finger Drag"
         logo: "assets/tools/threefingerdrag.png"
         subtitle: "Embrace the seamless three-finger drag."
@@ -2976,7 +3011,7 @@ services:
 
       - name: "Keyman 19 Alpha"
         logo: "assets/tools/keyman.png"
-        subtitle: "Open-source, helps you type in over 2500 languages."
+        subtitle: "Open-source, keyboard tool that helps you type in over 2500 languages."
         tag: "Alpha"
         url: "https://downloads.keyman.com/windows/alpha/"
         target: "_blank"
@@ -3132,6 +3167,13 @@ services:
         url: "https://github.com/jasperdevs/odd-snap/releases"
         target: "_blank"
 
+      - name: "EShot"
+        logo: "assets/tools/eshot.png"
+        subtitle: "Open-source, fast, lightweight Windows screenshot tool with annotations, OCR, uploads, pinned captures, GIF recording, and MP4 screen recording."
+        tag: "Nightly"
+        url: "https://github.com/Benoks/EShot/actions/workflows/build.yml"
+        target: "_blank"
+        
       - name: "Capster"
         logo: "assets/tools/capster.png"
         subtitle: "Screen and video capture with 1TB of free cloud storage."
@@ -3200,7 +3242,7 @@ services:
         url: "https://apps.microsoft.com/store/detail/phone-link/9NMPJ99VJBWV"
         subtitle: "Connects your Android or iOS smartphone to your PC, allowing you to view notifications, send texts, make calls, and access photos directly from your desktop."
         target: "_blank" # optional html a tag target attribute
-
+        
       - name: "Lenovo Smart Connect"
         logo: "assets/tools/smartconnect.png"
         subtitle: "Pair Motorola / Lenovo smartphone, PC, and tablet"
@@ -3270,8 +3312,7 @@ services:
       - name: "Sunshine"
         logo: "assets/tools/sunshine.png"
         subtitle: "Self-hosted game stream host for Moonlight."
-        tag: "Nightly"
-        url: "https://github.com/LizardByte/Sunshine/actions/workflows/ci.yml"
+        url: "https://github.com/LizardByte/Sunshine/releases"
         target: "_blank" # optional html a tag target attribute
         
       - name: "chiaki-ng"
@@ -3548,7 +3589,6 @@ services:
       - name: "SABnzbd"
         logo: "assets/tools/sabnzbd.png"
         subtitle: "Free and easy NZB (newsgroup binary) downloader"
-        tag: "Beta"
         url: "https://sabnzbd.org/downloads.html#"
         target: "_blank" # optional html a tag target attribute
         
@@ -4091,9 +4131,9 @@ services:
         url: "https://www.cursor.com/downloads"
         target: "_blank" # optional html a tag target attribute
 
-      - name: "Google Antigravity"
+      - name: "Google Antigravity, CLI & IDE"
         logo: "assets/tools/googleantigravity.png"
-        subtitle: "Google code editor with Gemini (Visual Studio Code Fork)."
+        subtitle: "Google AI-powered, agent-first development platform designed to build, test, and deploy software applications from scratch using autonomous AI agents. IDE is Visual Studio Code fork."
         url: "https://antigravity.google/download"
         target: "_blank" # optional html a tag target attribute
         
@@ -4435,6 +4475,12 @@ services:
         url: "https://aka.ms/terminal"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Coreutils for Windows"
+        logo: "assets/tools/clionly.png"
+        subtitle: "UNIX-style core utilities for Windows. The same commands and pipelines you use on Linux, macOS, and WSL - natively."
+        url: "https://github.com/microsoft/coreutils/releases"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "Hyper"
         logo: "assets/tools/hyper.png"
         subtitle: "A terminal built on web technologies."
@@ -4779,6 +4825,12 @@ services:
         url: "https://www.virtualbox.org/wiki/Downloads"
         target: "_blank"
         
+      - name: "App Sandbox"
+        logo: "assets/tools/appsandbox.png"
+        subtitle: "Open source,  virtual machine app for Windows and macOS that's focused on performance and ease of use."
+        url: "https://github.com/jamesstringer90/appsandbox/releases"
+        target: "_blank"
+        
       - name: "DOSBox-X"
         logo: "assets/tools/dosbox.png"
         subtitle: "Fork of DOSBox, focuses more on general emulation and accuracy."
@@ -4872,8 +4924,8 @@ services:
 
       - name: "86Box"
         logo: "assets/tools/86box.png"
-        subtitle: "Experimental dev official builds, highly accurate vintage PC emulator."
-        url: "https://github.com/86Box/86Box/actions/workflows/cmake_windows_msys2.yml"
+        subtitle: "Open-source, highly accurate vintage PC emulator."
+        url: "https://github.com/86Box/86Box/releases/"
         target: "_blank" # optional html a tag target attribute
         
       - name: "86Box 4.2"
@@ -6349,6 +6401,12 @@ services:
         subtitle: "unofficial builds of THE game engine re-creator"
         tag: "over 325 games supported"        
         url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/ScummVM"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Dusklight"
+        logo: "assets/tools/dusklight.png"
+        subtitle: "Open-source reverse-engineered re-implementation of Twilight Princess, requires original game disc data."
+        url: "https://github.com/TwilitRealm/dusklight/releases"
         target: "_blank" # optional html a tag target attribute
         
       - name: "Asphalt 8: Airborne"
