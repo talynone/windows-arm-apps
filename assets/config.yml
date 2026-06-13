@@ -2178,6 +2178,12 @@ services:
         subtitle: "Open-source comic reader, supports various file formats including CBZ, CBR, ZIP, RAR, PDF, and more."
         url: "https://yacreader.com/downloads"
         target: "_blank" # optional html a tag target attribute
+
+      - name: "OpenComic"
+        logo: "assets/tools/opencomic.png"
+        subtitle: "Open-source comic reader, written in Node.js and using Electron."
+        url: "https://github.com/ollm/OpenComic/releases"
+        target: "_blank" # optional html a tag target attribute
         
       - name: "Rulia - Manga Reader"
         logo: "assets/tools/rulia.png"
