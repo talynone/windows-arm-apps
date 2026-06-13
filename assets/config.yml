@@ -1456,6 +1456,13 @@ services:
         url: "https://apps.microsoft.com/store/detail/adobe-photoshop/XPFD4T9N395QN6"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Adobe Illustrator"
+        logo: "assets/tools/adobeillustrator.png"
+        subtitle: "Industry standard vector graphics software"
+        tag: "Beta"
+        url: "https://illustrator.uservoice.com/forums/333657-illustrator-desktop-feature-requests/suggestions/39773989-support-for-windows-64-bit-arm64-e-g-snapdragon"        
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "Adobe Lightroom"
         logo: "assets/tools/lightroom.png"
         subtitle: "Digital image organization and workflow tool"
@@ -3176,8 +3183,7 @@ services:
       - name: "EShot"
         logo: "assets/tools/eshot.png"
         subtitle: "Open-source, fast, lightweight Windows screenshot tool with annotations, OCR, uploads, pinned captures, GIF recording, and MP4 screen recording."
-        tag: "Nightly"
-        url: "https://github.com/Benoks/EShot/actions/workflows/build.yml"
+        url: "https://github.com/Benoks/EShot/releases"
         target: "_blank"
         
       - name: "Capster"
