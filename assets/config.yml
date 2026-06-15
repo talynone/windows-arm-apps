@@ -598,6 +598,12 @@ services:
         url: "https://github.com/FengZeng/soia/releases"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "SyLC 3D Player"
+        logo: "assets/tools/sylc.png"
+        subtitle: "Open-source, stereoscopic 3D Blu-ray (MVC) playback, decoded from scratch, rendered in native HDR."
+        url: "https://github.com/5ymph0en1x/SyLC/releases"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "SMPlayer"
         logo: "assets/tools/smplayer.png"
         subtitle: "unofficial builds / enable HW decoding, free multimedia player, work as front-end for MPlayer and mpv playback engines. Designed to play virtually all video and audio formats without requiring external codecs"
