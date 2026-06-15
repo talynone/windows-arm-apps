@@ -598,6 +598,12 @@ services:
         url: "https://github.com/FengZeng/soia/releases"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "SyLC 3D Player"
+        logo: "assets/tools/sylc.png"
+        subtitle: "Open-source, stereoscopic 3D Blu-ray (MVC) playback, decoded from scratch, rendered in native HDR."
+        url: "https://github.com/5ymph0en1x/SyLC/releases"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "SMPlayer"
         logo: "assets/tools/smplayer.png"
         subtitle: "unofficial builds / enable HW decoding, free multimedia player, work as front-end for MPlayer and mpv playback engines. Designed to play virtually all video and audio formats without requiring external codecs"
@@ -1456,6 +1462,13 @@ services:
         url: "https://apps.microsoft.com/store/detail/adobe-photoshop/XPFD4T9N395QN6"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Adobe Illustrator"
+        logo: "assets/tools/adobeillustrator.png"
+        subtitle: "Industry standard vector graphics software"
+        tag: "Beta"
+        url: "https://illustrator.uservoice.com/forums/333657-illustrator-desktop-feature-requests/suggestions/39773989-support-for-windows-64-bit-arm64-e-g-snapdragon"        
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "Adobe Lightroom"
         logo: "assets/tools/lightroom.png"
         subtitle: "Digital image organization and workflow tool"
@@ -2170,6 +2183,12 @@ services:
         logo: "assets/tools/yacreader.png"
         subtitle: "Open-source comic reader, supports various file formats including CBZ, CBR, ZIP, RAR, PDF, and more."
         url: "https://yacreader.com/downloads"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "OpenComic"
+        logo: "assets/tools/opencomic.png"
+        subtitle: "Open-source comic reader, written in Node.js and using Electron."
+        url: "https://github.com/ollm/OpenComic/releases"
         target: "_blank" # optional html a tag target attribute
         
       - name: "Rulia - Manga Reader"
@@ -3176,8 +3195,7 @@ services:
       - name: "EShot"
         logo: "assets/tools/eshot.png"
         subtitle: "Open-source, fast, lightweight Windows screenshot tool with annotations, OCR, uploads, pinned captures, GIF recording, and MP4 screen recording."
-        tag: "Nightly"
-        url: "https://github.com/Benoks/EShot/actions/workflows/build.yml"
+        url: "https://github.com/Benoks/EShot/releases"
         target: "_blank"
         
       - name: "Capster"
@@ -4475,12 +4493,18 @@ services:
         url: "https://github.com/nushell/nushell/releases"
         target: "_blank" # optional html a tag target attribute
 
-      - name: "Windows Terminal"
+      - name: "Microsoft Windows Terminal"
         logo: "assets/tools/windowsterminal.png"
         subtitle: "Modern, multi-tabbed command-line host for PowerShell, CMD, and WSL, offering powerful customization, panes, and GPU-accelerated rendering in one fast application."
         url: "https://aka.ms/terminal"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Microsoft Intelligent Terminal"
+        logo: "assets/tools/microsoftintelligentterminal.png"
+        subtitle: "Experimental terminal with native agent integration, forked from Windows Terminal. Key features include an agent in a dedicated pane that sees your shell context, catches errors as they happen, and helps you fix them without copy-pasting."
+        url: "https://apps.microsoft.com/detail/9nmqc2ssjx24"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "Coreutils for Windows"
         logo: "assets/tools/clionly.png"
         subtitle: "UNIX-style core utilities for Windows. The same commands and pipelines you use on Linux, macOS, and WSL - natively."
