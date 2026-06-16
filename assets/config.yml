@@ -5139,6 +5139,12 @@ services:
         url: "https://github.com/mijk84/win-arm64-binaries/releases/tag/tamatool"
         target: "_blank" # optional html a tag target attribute
         
+      - name: "Amiberry"
+        logo: "assets/tools/amiberry.png"
+        subtitle: "Built on the WinUAE emulation core, optimized Amiga Emulator"
+        url: "https://github.com/BlitterStudio/amiberry/releases"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "WinFellow"
         logo: "assets/tools/winfellow.png"
         subtitle: "Amiga Emulator"
