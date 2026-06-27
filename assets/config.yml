@@ -2387,6 +2387,12 @@ services:
   - name: "Tools"
     icon: "fa-solid fa-screwdriver-wrench"
     items:
+      - name: "RustDesk"
+        logo: "assets/tools/rustdesk.png"
+        subtitle: "Open-source, remote desktop application designed for self-hosting, as an alternative to TeamViewer."
+        url: "https://github.com/rustdesk/rustdesk/releases"
+        target: "_blank"
+        
       - name: "UniGetUI"
         logo: "assets/tools/unigetui.png"
         subtitle: "Graphical Interface for your package managers."
@@ -2901,7 +2907,7 @@ services:
         subtitle: "Switch between windows of the same app."
         url: "https://github.com/sigoden/window-switcher/releases" # URL to download the app
         target: "_blank"
-
+        
       - name: "BeyondTrust Remote Support"
         logo: "assets/tools/beyondtrustremote.png"
         subtitle: "Enterprise remote support from anywhere."
