@@ -4089,6 +4089,13 @@ services:
         url: "https://www.git-tower.com/windows"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "GitKraken Desktop"
+        logo: "assets/tools/gitkraken.png"
+        subtitle: "Popular powerful graphical Git client."
+        tag: "Beta"
+        url: "https://www.gitkraken.com/download"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "GitComet"
         logo: "assets/tools/gitcomet.png"
         subtitle: "Open-source, fastest user interface for GIT workflows."
