@@ -1661,6 +1661,12 @@ services:
         subtitle: "Open Source, Blazing fast ultra-light photo viewer that works similar to Picasa Photo Viewer."
         url: "https://github.com/riyasy/FlyPhotos"
         target: "_blank" # optional html a tag target attribute
+
+      - name: "Samsung Gallery"
+        logo: "assets/tools/samsunggallery.png"
+        subtitle: "View and edit the photos from your mobile phone on your computer’s larger screen."
+        url: "https://apps.microsoft.com/detail/9nblggh4n9r9"
+        target: "_blank" # optional html a tag target attribute
         
       - name: "RadiAnt DICOM Viewer"
         logo: "assets/tools/radiantdicomviewer.png"
