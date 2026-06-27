@@ -429,6 +429,12 @@ services:
         subtitle: "Play your favorite songs, podcasts and albums on Windows with Spotify."
         url: "https://apps.microsoft.com/detail/9ncbcszsjrsb"
         target: "_blank" # optional html a tag target attribute
+
+      - name: "Pear Desktop"
+        logo: "assets/tools/peardesktop.png"
+        subtitle: "Open-source, ultimate YouTube music player."
+        url: "https://github.com/pear-devs/pear-desktop/releases"
+        target: "_blank" # optional html a tag target attribute
         
       - name: "Trdo (Tiny Internet Radio Player)"
         logo: "assets/tools/trdo.png"
